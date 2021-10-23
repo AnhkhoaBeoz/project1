@@ -16,6 +16,11 @@ var menuMobileShow = document.querySelector('.mobile-modal');
 var closeMenu = document.querySelector('.close-mobile').addEventListener('click', btnOpen);
 var modalClickMobile = document.querySelector('.click-account');
 var closeLoginMobile = document.querySelector('.modal-close');
+var focusChoose = document.querySelectorAll('.food-choose-item');
+
+    for(var i = 0 ; i < focusChoose.length;i++) {
+       
+    }
 function show() {
     modalLogin.classList.toggle('open');
 }
@@ -36,6 +41,7 @@ function showMobile() {
 function HideMobile() {
     modalLogin.classList.add('close');
     menuMobileShow.classList.add('close');
+
 }
 modalClickMobile.addEventListener('click', showMobile);
-closeLoginMobile.addEventListener('click', showMobile);
+closeLoginMobile.addEventListener('click', HideMobile);

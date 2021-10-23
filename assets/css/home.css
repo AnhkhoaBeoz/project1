@@ -157,7 +157,7 @@ html{
     border-radius: 100%;
   }
 .header{
-    z-index: 1000;
+    z-index: 1001;
     background-color: rgb(26, 26, 26,0.8);
     display: flex;
     justify-content: space-between;
@@ -637,7 +637,7 @@ html{
     animation: toDown ease 0.5s;
 }
 .modal-login{
-    width: 50%;
+    width: 80%;
     display: grid;
     grid-template-columns: 60% 40%;
 }

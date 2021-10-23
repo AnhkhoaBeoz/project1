@@ -1,0 +1,266 @@
+/* responsive tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .menu-logo-link{
+        display: block;
+        padding: 2.4rem 1.6rem;
+        margin-left: 1.6rem;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-item {
+        display: none;
+    }
+    .nav-right {
+        display: none;
+    }
+    
+    .content-story{
+        grid-template-columns: 1fr;
+    }
+    .content-team {
+
+    }
+    .content-team--cards {
+        grid-template-columns: 1fr;
+    }
+    .content-food-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+    }
+    .footer-content {
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        grid-gap: 3rem;
+    }
+    .footer-time-open {
+        height: 30rem;
+       
+        padding: 40px 0 40px 80px;
+        
+        background: url(/assets/img/footer-open-hour-bg.jpg) center center no-repeat;
+    }
+  
+    .footer-info {
+        padding: 2rem;
+        text-align:left;
+        width: 30%;
+    }
+    .food-socical{
+        display: block;
+    }
+    .nav-socical {
+       
+        justify-content: left;
+        align-items: left;
+        margin-bottom: 2rem;
+    }
+    .btn-menu-bar {
+        display: block;
+    }
+    .modal-login {
+        width: 70%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .content-list{
+        flex-direction: column;
+    }
+    .contact-heading > h1 {
+        padding-top: 8rem;
+        font-size: 6rem;
+    }
+    .content-food-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-food {
+        padding: 1rem;
+    }
+    .food-choose-list {
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+/* responsive Mobile */
+@media (max-width: 739px)
+{
+    .main {
+        max-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    }
+    .slider {
+        
+        max-width: 100%;
+      
+    }
+    .item-slider-img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .slider-title {
+        font-size: 1.5rem;
+    }
+
+    .btn-slider--link {
+        font-size: 1.3rem;
+    }
+    .menu-logo-link{
+        display: block;
+        padding: 2.4rem 1.6rem;
+        margin-left: 1.6rem;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-item {
+        display: none;
+    }
+    .nav-right {
+        display: none;
+    }
+    
+    .content-story{
+        grid-template-columns: 1fr;
+    }
+    .content-team {
+
+    }
+    .content-team--cards {
+        grid-template-columns: 1fr;
+    }
+    .content-food-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+    }
+    .food-item {
+        padding: 1.6rem 1.2rem;
+
+    }
+    .food-item--img {
+        height: 35rem;
+    }
+    .testimonials-content {
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .footer-content {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+        grid-gap: 1.5rem;
+    }
+    .footer-time-open {
+        height: 30rem;
+       
+        padding: 40px 0 40px 80px;
+        
+        background: url(/assets/img/footer-open-hour-bg.jpg) center center no-repeat;
+    }
+  
+    .footer-info {
+        padding: 2rem;
+        text-align:left;
+        width: 50%;
+    }
+    .food-socical{
+        display: block;
+    }
+    .nav-socical {
+       
+        justify-content: left;
+        align-items: left;
+        margin-bottom: 2rem;
+    }
+    .btn-menu-bar {
+        display: block;
+    }
+    .modal-login {
+        width:calc(100%-1.6rem);
+        display: grid;
+        grid-template-columns:1fr;
+
+    }
+    .background-img {
+        display: none;
+    }
+    .login-form {
+        color: #fff;
+        margin-top: 6.4rem;
+        min-width: calc(100% - 6.4rem);
+        min-height: calc(100% - 6.4rem);
+    }
+    .login {
+        background: url(/assets/img/login-background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+    }
+    .login-form h1 {
+        font-size: 4.6rem;
+    }
+    .login-form > h4 {
+        font-size: 2.4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .modal-close {
+        display: block;
+        display: block;
+       
+        background: #514540;
+        z-index: 1003;
+    }
+    .login-form {
+        margin-bottom: 3.2rem;
+    }
+    .btn-login {
+        margin: 3.2rem 0 ;
+    }
+    input[type=text] {
+        width: 100%;
+
+        margin: 2.4rem 0;
+    }
+    .sign-up {
+        opacity: 1;
+    }
+    .content-list{
+        flex-direction: column;
+    }
+    .contact-heading {
+    background-color: rgb(218, 32, 61);
+
+        padding: 4rem;
+    }
+    .contact-heading > h1 {
+        text-align: center;
+        padding-top: 5rem;
+            font-size: 4rem;
+    }
+    .contact-form {
+        width: calc(100% - 3.2rem);
+    }
+    .content-food-cards {
+        grid-template-columns: 1fr;
+    }
+    .food-choose-list {
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+}
