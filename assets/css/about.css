@@ -381,9 +381,9 @@ html{
     animation: toDown ease 0.5s;
 }
 .modal-login{
-    width: 80%;
+    width: 70%;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
 }
 .background-img{
     width: 100%;
