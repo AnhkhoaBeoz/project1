@@ -40,7 +40,7 @@ html{
     overflow-x: hidden;
     overflow-y: auto;
     font-size: 1.5rem;
-    background: url(/assets/img/background-menu.png);
+    background: url(/project1/assets/img/background-menu.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: #555;
@@ -251,7 +251,7 @@ html{
     position: relative;
     border-radius: 2rem;
     overflow: hidden;
-    background: url(/assets/img/footer-open-hour-bg.jpg) center center no-repeat;
+    background: url(/project1/assets/img/footer-open-hour-bg.jpg) center center no-repeat;
 }
 
 .time-title{
